@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="wrapper">
+                <div class="header_container">
+                    <div class="header_top">
+                        <div class="flex justify_between">
+                            <div class="header_top_left_block">
+                                <ul class="flex">
+                                    <li><a href="#">Creative Corner</a></li>
+                                    <li><a href="#">Content Hub</a></li>
+                                    <li><a href="#">Get Free Samples</a></li>
+                                    <li><a href="#">Custom Project</a></li>
+                                </ul>
+                            </div>
+                            <div class="flex header_top_right_block">
+                                <div>
+                                    <div class="flex">
+                                        <span>NEW</span>
+                                        <a href="#">My Influence Rewards</a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="flex">
+                                        <span>FREE</span>
+                                        <a href="#">Marketing Cloud</a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="flex">
+                                        <a href="#">Blank Templates</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header_middle header_line flex justify_between">
+                        <div class="flex">
+                            <div class="hamburger_block flex justify_center align_center">
+                                <div class="dash_1"></div>
+                                <div class="dash_2"></div>
+                                <div class="dash_3"></div>
+                            </div>
+                            <div class="logo_block">
+                                <a href="/">Logo</a>
+                            </div>
+                        </div>
+                        <div class="header_middle_right flex flex_end">
+                            <div class="search_block flex flex_content_between">
+                                <form action="" method="post" onsubmit="return false">
+                                    <input type="search" name="search" id="search" autocomplete="off">
+                                    <button type="submit" class="search_btn">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="user_options_block flex">
+                                <div class="circle_red"></div>
+                                <img src="images/ellipse.png" alt="user">
+                            </div>
+                            <div class="user_options_content flex flex_column">
+                                <div>
+                                    <select name="user_options" id="user_options">
+                                        <option value="name">Hi Cornel A.</option>
+                                        <option value=""><a href="#">Page</a></option>
+                                        <option value=""><a href="#">Page</a></option>
+                                        <option value=""><a href="#">Page</a></option>
+                                    </select>
+                                </div>
+                                <div class="flex">
+                                    <img src="images/coins-number.png" alt="coins-number" class="cions_number_img">
+                                    <p class="cions_number flex align_center"><span>356</span> Coins</p>
+                                    <i class="fa fa-question"></i>
+                                </div>
+                            </div>
+                            <div class="cart_block flex align_center">
+                                <img src="images/cart-icon.png">
+                                <span>Cart</span>
+                                <div class="cart_total flex justify_center align_center">0</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header_menu header_line">
+                        <nav>
+                            <ul class="flex flex_around">
+                                <li><a href="#">All Products</a></li>
+                                <li><a href="#">Business Basics</a></li>
+                                <li><a href="#">Marketing Essentials</a></li>
+                                <li><a href="#">Packaging & Retail</a></li>
+                                <li><a href="#">Promotional & Events</a></li>
+                                <li><a href="#">Signs, Banners & Displays</a></li>
+                                <li><a href="#">Stickers & Labels</a></li>
+                                <li><a href="#">Real Estate Product</a></li>
+                                <li><a href="#">Trade Show Products</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header_bottom flex">
+                        <div>
+                            <a href="/"><img src="images/home-run.png" alt="home"></a>
+                            <a href="/"><img src="images/home-run-green.png" class="img_hover" alt="home"></a>
+                        </div>
+                        <div class="page_source flex">
+                            <a href="#">Checkout</a>
+                            <span>/</span>
+                            <a href="#">Review Your Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="row flex">
+            <div class="wrapper flex justify_between">
+                <div class="left_wrap">
+                    <section class="steps">
+                        <div class="steps_block flex flex_around">
+                            <div class="steps_block_item clicked flex flex_column align_center">
+                                <div class="step_number one flex justify_center align_center">1</div>
+                                <div class="flex">
+                                    <div class="step_check flex justify_center align_center">
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </div>
+                                    <span class="step_text">Your Products</span>
+                                </div>
+                            </div>
+                            <div class="line"></div>
+                            <div class="steps_block_item flex flex_column align_center">
+                                <div class="step_number two flex justify_center align_center">2</div>
+                                <div class="flex">
+                                    <div class="step_check flex justify_center align_center">
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </div>
+                                    <span class="step_text">Shipping Details</span>
+                                </div>
+                            </div>
+                            <div class="line"></div>
+                            <div class=" steps_block_item flex flex_column align_center">
+                                <div class="step_number flex justify_center align_center">3</div>
+                                <div class="flex">
+                                    <div class="step_check flex justify_center align_center">
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </div>
+                                    <span class="step_text">Payment Details</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="next_btn_block">
+                            <a href="#" class="next_btn">Next
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </section>
+                    <section class="products">
+                        <div class="product_block flex">
+                            <div class="product_img_block">
+                                <img src="images/Rectangle_1.png" alt="product photo">
+                            </div>
+                            <div class="product_info_block">
+                                <div class="flex justify_between">
+                                    <div class="title_block full_green_check">
+                                        <div>
+                                            <div class="flex">
+                                                <div class="full_check flex justify_center align_center">
+                                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                                </div>
+                                                <div>
+                                                    <h3>Flyers <span class="price">$36.00</span></h3>
+                                                </div>
+                                            </div>
+                                            <div class="quantity_block">
+                                                Quantity:<span> 100</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project_block flex justify_between align_center">
+                                        <div>
+                                            <p>Project Name: <a href="">Not Defined</a></p>
+                                        </div>
+                                        <div class="flex align_center">
+                                            <a href="#">
+                                                <img src="images/edite-pen.png" alt="edit">
+                                            </a>
+                                            <span>Edit</span>
+                                        </div>
+                                    </div>
+                                    <div class="change_block flex">
+                                        <div class="details flex">
+                                            <img src="images/details.png" alt="details">
+                                            <span>DETAILS</span>
+                                        </div>
+                                        <div class="flex">
+                                            <img src="images/edit.png" alt="details">
+                                            <span>EDIT</span>
+                                        </div>
+                                        <div class="flex">
+                                            <img src="images/copy.png" alt="details">
+                                            <span>COPY</span>
+                                        </div>
+                                        <div class="flex">
+                                            <img src="images/trash.png" alt="details">
+                                            <span>REMOVE</span>
+                                        </div>
+                                        <div class="flex view">
+                                            <span>VIEW</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="optional_block">
+                                    <div class="flex justify_between align_center">
+                                        <div class="flex">
+                                            <img src="images/bell.png">
+                                            <p><span class="first_piece">Optional: Update Quantities and </span>Save
+                                                $15.00 on this Product</p>
+                                        </div>
+                                        <div>
+                                            <button type="submit" class="hide">Hide</button>
+                                        </div>
+                                    </div>
+                                    <div class="flex mini_blocks">
+                                        <div class="optional_mini_block flex justify_between align_center">
+                                            <div>
+                                                <div class="quantity_mini_block">
+                                                    Quantity:<span> 500</span>
+                                                </div>
+                                                <span class="most_popular">Most Popular</span>
+                                            </div>
+                                            <div class="flex align_center">
+                                                <span class="first_price">$175</span>
+                                                <span class="last_price">$150</span>
+                                                <a href="" class="update flex">
+                                                    UPDATE
+                                                    <img src="images/refresh.png" alt="refresh" class="refresh">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="optional_mini_block flex justify_between align_center">
+                                            <div>
+                                                <div class="quantity_mini_block">
+                                                    Quantity:<span> 250</span>
+                                                </div>
+                                                <span class="most_popular best_value">Best Value</span>
+                                            </div>
+                                            <div class="flex align_center">
+                                                <span class="first_price">$350</span>
+                                                <span class="last_price">$250</span>
+                                                <a href="" class="update flex">
+                                                    UPDATE
+                                                    <img src="images/refresh.png" alt="refresh" class="refresh">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="file_btn_block">
+                                    <label class="file_btn flex align_center">
+                                        <img src="images/plus-green.png" class="plus">
+                                        <span>Files/Order Info</span>
+                                        <input type="file" style="display: none;" multiple>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_block flex">
+                            <div class="product_img_block">
+                                <img src="images/Rectangle_2.png" alt="product photo">
+                            </div>
+                            <div class="product_info_block">
+                                <div class="flex justify_between">
+                                    <div class="title_block full_red_exclamation">
+                                        <div>
+                                            <div class="flex">
+                                                <div class="required_block flex">
+                                                    <div
+                                                        class="full_check red_exclamation flex justify_center align_center">
+                                                        <i class="fa fa-exclamation" aria-hidden="true"></i>
+                                                    </div>
+                                                    <span>File Required</span>
+                                                </div>
+                                                <div
+                                                    class="full_check full_check_green flex justify_center align_center">
+                                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                                </div>
+                                                <div>
+                                                    <h3>5.5” x 38.5” Postcards <span class="price">$36.00</span></h3>
+                                                </div>
+                                            </div>
+                                            <div class="quantity_block">
+                                                Quantity:<span> 100</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project_block flex justify_between align_center">
+                                        <div>
+                                            <p>Project Name: <a href="">Not Defined</a></p>
+                                        </div>
+                                        <div class="flex align_center">
+                                            <a href="#">
+                                                <img src="images/edite-pen.png" alt="edit">
+                                            </a>
+                                            <span>Edit</span>
+                                        </div>
+                                    </div>
+                                    <div class="change_block flex">
+                                        <div class="details flex">
+                                            <img src="images/details.png" alt="details">
+                                            <span>DETAILS</span>
+                                        </div>
+                                        <div class="flex">
+                                            <img src="images/edit.png" alt="details">
+                                            <span>EDIT</span>
+                                        </div>
+                                        <div class="flex">
+                                            <img src="images/copy.png" alt="details">
+                                            <span>COPY</span>
+                                        </div>
+                                        <div class="flex">
+                                            <img src="images/trash.png" alt="details">
+                                            <span>REMOVE</span>
+                                        </div>
+                                        <div class="flex view">
+                                            <span>VIEW</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="optional_block">
+                                    <div class="flex justify_between align_center">
+                                        <div class="flex">
+                                            <img src="images/bell.png">
+                                            <p><span class="first_piece">Optional: Update Quantities and </span>Save
+                                                $15.00 on this Product</p>
+                                        </div>
+                                        <div>
+                                            <button type="submit" class="hide">Hide</button>
+                                        </div>
+                                    </div>
+                                    <div class="flex mini_blocks">
+                                        <div class="optional_mini_block flex justify_between align_center">
+                                            <div>
+                                                <div class="quantity_mini_block">
+                                                    Quantity:<span> 500</span>
+                                                </div>
+                                                <span class="most_popular">Most Popular</span>
+                                            </div>
+                                            <div class="flex align_center">
+                                                <span class="first_price">$175</span>
+                                                <span class="last_price">$150</span>
+                                                <a href="" class="update flex">
+                                                    UPDATE
+                                                    <img src="images/refresh.png" alt="refresh" class="refresh">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="optional_mini_block flex justify_between align_center">
+                                            <div>
+                                                <div class="quantity_mini_block">
+                                                    Quantity:<span> 250</span>
+                                                </div>
+                                                <span class="most_popular best_value">Best Value</span>
+                                            </div>
+                                            <div class="flex align_center">
+                                                <span class="first_price">$350</span>
+                                                <span class="last_price">$250</span>
+                                                <a href="" class="update flex">
+                                                    UPDATE
+                                                    <img src="images/refresh.png" alt="refresh" class="refresh">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="file_btn_block">
+                                    <label class="file_btn flex align_center">
+                                        <img src="images/plus-green.png" class="plus">
+                                        <span>Files/Order Info</span>
+                                        <input type="file" style="display: none;" multiple>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_block cian_bg">
+                            <div class="flex">
+                                <div class="product_img_block">
+                                    <img src="images/Rectangle_3.png" alt="product photo">
+                                </div>
+                                <div class="product_info_block">
+                                    <div class="flex justify_between">
+                                        <div class="title_block full_red_exclamation">
+                                            <div>
+                                                <div class="flex">
+                                                    <div class="required_block flex">
+                                                        <div
+                                                            class="full_check red_exclamation flex justify_center align_center">
+                                                            <i class="fa fa-exclamation" aria-hidden="true"></i>
+                                                        </div>
+                                                        <span>File Required</span>
+                                                    </div>
+                                                    <div>
+                                                        <h3>
+                                                            <span>2” x 3.5” Black Business Cards</span>
+                                                            <span class="price">$36.00</span>
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                                <div class="quantity_block">
+                                                    Quantity:<span> 100</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="project_block flex justify_between align_center">
+                                            <div>
+                                                <p>Project Name: <a href="">Not Defined</a></p>
+                                            </div>
+                                            <div class="flex align_center">
+                                                <a href="#">
+                                                    <img src="images/edite-pen.png" alt="edit">
+                                                </a>
+                                                <span>Edit</span>
+                                            </div>
+                                        </div>
+                                        <div class="change_block flex">
+                                            <div class="details flex">
+                                                <img src="images/details.png" alt="details">
+                                                <span>DETAILS</span>
+                                            </div>
+                                            <div class="flex">
+                                                <img src="images/edit.png" alt="details">
+                                                <span>EDIT</span>
+                                            </div>
+                                            <div class="flex">
+                                                <img src="images/copy.png" alt="details">
+                                                <span>COPY</span>
+                                            </div>
+                                            <div class="flex">
+                                                <img src="images/trash.png" alt="details">
+                                                <span>REMOVE</span>
+                                            </div>
+                                            <div class="flex view">
+                                                <span>VIEW</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="optional_block">
+                                        <div class="flex justify_between align_center">
+                                            <div class="flex">
+                                                <img src="images/bell.png">
+                                                <p><span class="first_piece">Optional: Update Quantities and </span>Save
+                                                    $15.00 on this Product</p>
+                                            </div>
+                                            <div>
+                                                <button type="submit" class="hide">Hide</button>
+                                            </div>
+                                        </div>
+                                        <div class="flex mini_blocks">
+                                            <div class="optional_mini_block flex justify_between align_center">
+                                                <div>
+                                                    <div class="quantity_mini_block">
+                                                        Quantity:<span> 500</span>
+                                                    </div>
+                                                    <span class="most_popular">Most Popular</span>
+                                                </div>
+                                                <div class="flex align_center">
+                                                    <span class="first_price">$175</span>
+                                                    <span class="last_price">$150</span>
+                                                    <a href="" class="update flex">
+                                                        UPDATE
+                                                        <img src="images/refresh.png" alt="refresh" class="refresh">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="optional_mini_block flex justify_between align_center">
+                                                <div>
+                                                    <div class="quantity_mini_block">
+                                                        Quantity:<span> 250</span>
+                                                    </div>
+                                                    <span class="most_popular best_value">Best Value</span>
+                                                </div>
+                                                <div class="flex align_center">
+                                                    <span class="first_price">$350</span>
+                                                    <span class="last_price">$250</span>
+                                                    <a href="" class="update flex">
+                                                        UPDATE
+                                                        <img src="images/refresh.png" alt="refresh" class="refresh">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="file_btn_block">
+                                        <label class="file_btn flex align_center">
+                                            <img src="images/plus-green.png" class="plus">
+                                            <span>Files/Order Info</span>
+                                            <input type="file" style="display: none;" multiple>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <table>
+                                    <tr>
+                                        <td class="gray">Product</td>
+                                        <td>1” x 3.5” business cards</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="gray">Quantity</td>
+                                        <td>100</td>
+                                        <td>$11.20</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="gray">Paper Type</td>
+                                        <td>6pt Uncoated with Soft Touch</td>
+                                        <td>$8.74</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="green">Product Total</td>
+                                        <td></td>
+                                        <td class="green">$19.94</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="flex align_center">
+                                            <img src="images/discount.png" alt="Discount">
+                                            <span>Discount</span>
+                                        </td>
+                                        <td></td>
+                                        <td>-$2.50</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="total">Total</td>
+                                        <td></td>
+                                        <td class="total">$17.40</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="next_btn_block next_page">
+                            <a href="#" class="next_btn">Next
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+                <div class="right_wrap">
+                    <div class="order_title_block">
+                        <h2>Order Summary</h2>
+                    </div>
+                    <div class="order_summary_content">
+                        <div>
+                            <div class="order_product_info">
+                                <div class="flex justify_between">
+                                    <p>2” x 3.5” Black Business Cards</p>
+                                    <span>$110.00</span>
+                                </div>
+                                <div class="flex justify_between">
+                                    <div class="flex align_center">
+                                        <img src="images/ellips.png" alt="ellips">
+                                        <p>On sale Product</p>
+                                    </div>
+                                    <span>$9.00</span>
+                                </div>
+                            </div>
+                            <div class="order_product_info">
+                                <div class="flex justify_between">
+                                    <p>5.5" x 8.5" carbonless forms</p>
+                                    <span>$110.00</span>
+                                </div>
+                                <div class="flex justify_between">
+                                    <div class="flex align_center">
+                                        <img src="images/discount.png" alt="ellips">
+                                        <p>Coupon <span class="purple">CCYUUK</span></p>
+                                    </div>
+                                    <span>$8.00</span>
+                                </div>
+                            </div>
+                            <div class="total_price_block">
+                                <div class="flex justify_between">
+                                    <p>Printing cost</p>
+                                    <span>$110.00</span>
+                                </div>
+                                <div class="flex justify_between">
+                                    <p>Shipping</p>
+                                    <span>$29.02</span>
+                                </div>
+                                <div class="flex justify_between">
+                                    <p>Estimated Tax (8.875%):</p>
+                                    <span>$14.64</span>
+                                </div>
+                            </div>
+                            <div class="total flex justify_between">
+                                <p>Total Amount <span>for the order</span></p>
+                                <span>$ 110.00</span>
+                            </div>
+                            <div class="shopping_btn">
+                                <a href="#" class="flex justify_center">
+                                    <span>Place My Order</span>
+                                    <img src="images/supermarket.png" alt="shopping_cart" class="shopping_cart">
+                                </a>
+                            </div>
+                            <div class="premium_block flex">
+                                <input type="checkbox" id="premium" name="premium" value="premium">
+                                <label for="premium">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    Go Premium today and <span>save 30%!</span>
+                                </label>
+                            </div>
+                            <div class="coupon_block flex flex_end">
+                                <a>Have a coupon?</a>
+                            </div>
+                            <div class="confidence_block">
+                                <div class="flex justify_center">
+                                    <img src="images/confidence.png" alt="confidence">
+                                    <h4>Shop with Confidence</h4>
+                                </div>
+                                <div>
+                                    <p>Your shoppong with ----- is always 100% secure</p>
+                                </div>
+                                <div class="flex justify_between confidence_partners_block">
+                                    <div class="flex align_center">
+                                        <img src="images/comodo.png" alt="comodo">
+                                    </div>
+                                    <div class="flex align_center">
+                                        <img src="images/norton.png" alt="norton">
+                                    </div>
+                                    <div class="flex align_center">
+                                        <img src="images/rapid.png" alt="rapid">
+                                    </div>
+                                    <div class="flex align_center">
+                                        <img src="images/digicert.png" alt="digicert">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="footer_top_block">
+                <div class="flex justify_between footer_wrapper">
+                    <div class="logo_block">
+                        <a href="/">Logo</a>
+                    </div>
+                    <div class="flex">
+                        <div class="flex align_center">
+                            <img src="images/pin.png" alt="pin" id="pin">
+                            <a href="https://goo.gl/maps/AyarHf6N1v4AwaTo6" target="_blank">Yerevan 0014, Azatutyan
+                                24/15</a>
+                        </div>
+                        <div class="flex align_center">
+                            <img src="images/phone.png" alt="pin">
+                            <a href="tel:+374-41-709-100">+374 41 709 100</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom_block">
+                <div class="footer_wrapper">
+                    <div>
+                        <img src="images/footer-partner.png" alt="partner">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

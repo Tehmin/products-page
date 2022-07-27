@@ -1,0 +1,62 @@
+.row {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1494px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer_wrapper {
+  width: 100%;
+  max-width: 1055px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_column {
+  flex-direction: column;
+}
+
+.flex_wrap {
+  flex-wrap: wrap;
+}
+
+.align_center {
+  align-items: center;
+}
+
+.justify_between {
+  justify-content: space-between;
+}
+
+.justify_center {
+  justify-content: center;
+}
+
+.flex_content_between {
+  justify-content: space-between;
+}
+
+.flex_around {
+  justify-content: space-around;
+}
+
+.flex_end {
+  justify-content: flex-end;
+}
+
+.tr3 {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
